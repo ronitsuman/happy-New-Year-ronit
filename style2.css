@@ -1,0 +1,21 @@
+body{
+    -webkit-animation:zoom 5s infinite;
+    animation:zoom 5s infinite;
+    background:url(heart.png) center center fixed no-repeat;
+  }
+  @-webkit-keyframes zoom{
+    0%,100%{
+        background-size:100%;
+    }
+    50%{
+        background-size:125%;
+    }
+  }
+  @keyframes zoom{
+    0%, 100%{
+        background-size:100%;
+    }
+    50%{
+        background-size:125%;
+    }
+  }
